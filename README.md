@@ -88,7 +88,7 @@ Accounting-App/
 │   └── main_window.py       # Tkinter GUI layout, event handling, and theme state
 │
 └── data/                    # Local storage (Git-ignored)
-    ├── NNN AC-2026.xlsx     # Primary Excel ledger
+    ├── NNN AC.xlsx     # Primary Excel ledger
     ├── pdf/                 # Generated PDF report archive
     └── reports/             # Output reconciliation reports
 ```
@@ -149,7 +149,7 @@ Accounting-App/
 ## 🛡️ Data Privacy & Dummy Data Notice
 
 To demonstrate full application functionality safely on GitHub:
-* **Demo Template Included:** The repository includes a sample Excel workbook (`data/NNN AC-2026.xlsx`) pre-populated with **anonymized, dummy transaction data**. This allows immediate testing and demonstration without manual setup.
+* **Demo Template Included:** The repository includes a sample Excel workbook (`data/NNN AC.xlsx`) pre-populated with **anonymized, dummy transaction data**. This allows immediate testing and demonstration without manual setup.
 * **Excluded Generated Files:** All real transaction logs, exported PDF files (`data/pdf/`), and output reconciliation reports (`data/reports/`) are strictly excluded from version control via `.gitignore` to ensure privacy.
 
 ## 📝 License

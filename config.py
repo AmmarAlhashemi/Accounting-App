@@ -16,7 +16,7 @@ os.makedirs(PDF_DIR, exist_ok=True)
 os.makedirs(REPORTS_DIR, exist_ok=True)
 
 # --- Dynamic File Paths ---
-BASE_EXCEL_PATH = os.path.join(DATA_DIR, f"NNN AC-{CURRENT_YEAR}.xlsx")
+BASE_EXCEL_PATH = os.path.join(DATA_DIR, f"NNN AC.xlsx")
 BASE_PDF_DIR = PDF_DIR
 RECON_OUTPUT_PATH = os.path.join(REPORTS_DIR, "Temp_Reconciliation_Report.xlsx")
 
